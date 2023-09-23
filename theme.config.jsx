@@ -1,7 +1,7 @@
 import LatticeImage from "./components/LatticeImage"
 
 export default {
-  docsRepositoryBase: 'https://github.com/violentpositron/epola-space-nextra/tree/master/',
+  docsRepositoryBase: 'https://github.com/violentpositron/epola-space-nextra/tree/main/',
   logo: <>
     <LatticeImage width="50px"/>
     <span style={{ marginLeft: '1rem', fontWeight: 800 }}>
