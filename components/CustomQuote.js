@@ -26,7 +26,7 @@ export const CustomQuote = (props) => {
         display: "flex",
         flexDirection: "column",
         alignItems: "end",
-        width: "75%"
+        width: "100%"
       }}>
         <Typography>
           <FormatQuote />
