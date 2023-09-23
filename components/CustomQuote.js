@@ -19,7 +19,8 @@ export const CustomQuote = (props) => {
       width: "100%",
       display: "flex",
       justifyContent: "right",
-      margin: "1rem"
+      marginTop: "1rem",
+      marginBottom: "1rem",
     }}>
       <Paper elevation={3} sx={{
         padding: "2rem",
