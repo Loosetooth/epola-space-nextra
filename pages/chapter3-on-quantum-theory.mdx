@@ -1,4 +1,4 @@
-
+import { Bleed } from 'nextra-theme-docs'
 import { Callout } from 'nextra/components'
 
 <div style={{textAlign: 'center'}}>
@@ -248,3 +248,101 @@ In spite of the success of Bohr's theory, it is not right to see in it an explan
 
 ### 3.9 Linkage between Bohr's orbits and de Broglie waves
 
+The physical explanation of Bohr's postulate might be linked with the relation between the radii of the Bohr orbits and the de Broglie electron waves. We can rewrite the two expressions as
+
+$$
+mv = \frac{n \cdot h}{2\pi r}
+$$
+and,
+$$
+mv = \frac{h}{\lambda_B}
+$$
+
+This yields a united "Bohr-de Broglie" condition for orbit stability
+
+$$
+2\pi r = n \cdot \lambda_B
+$$
+
+or
+
+> circumferences of allowed atomic orbits must contain integral numbers of de Broglie electron wavelengths.
+
+In this form, the postulate still does not explain why the electron on a stable orbit does not radiate, but it prepares the basis for a future explanation. We see that in the ground state, $n = 1$, the circumference of the orbit is equal to the de Broglie wavelength of the orbital electron,
+
+$$
+2\pi r_1 = \lambda_1
+$$
+
+The velocity of this electron is
+
+$$
+v_1 = \frac{h}{2\pi r_1 m} = 2.2 \cdot 10^6 \mathrm{m/s}
+$$
+
+For the next allowed orbit, $n = 2$,
+
+$$
+2\pi r_2 = 2\lambda_2
+$$
+
+there are two de Broglie electron wavelengths on the circumference of the orbit. However, the radius of this orbit is 4 times that of the ground state orbit. Thus, the electron wavelength is twice that of the ground state, meaning that the
+velocity of the electron is half that of the ground state, and the energy is $E_1/4$.
+
+With the united Bohr-de Broglie orbit-stability condition, we have the following values for the allowed orbits:
+
+<Bleed>
+<table>
+    <thead>
+        <tr>
+            <th>Orbit</th>
+            <th colSpan={3}>Radius, wavelength</th>
+            <th>Speed</th>
+            <th>Energy</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>$n = 1$</td>
+            <td colSpan={3}>$2 \pi r_1 = \lambda_1 = 333 \mathrm{pm}$</td>
+            <td>$v_1 = 2.2 \cdot 10^6 \mathrm{m/s}$</td>
+            <td>$E_1 = 13.6 \mathrm{eV}$</td>
+        </tr>
+        <tr>
+            <td>$n = 2$</td>
+            <td>$2 \pi r_2 = 2\lambda_2$</td>
+            <td>$r_2 = 4 r_1$</td>
+            <td>$\lambda_2 = 2 \lambda_1$</td>
+            <td>$v_2 = v_1 / 2$</td>
+            <td>$E_2 = \ \  3.4 \mathrm{eV}$</td>
+        </tr>
+        <tr>
+            <td>$n = 3$</td>
+            <td>$2 \pi r_3 = 3 \lambda_3$</td>
+            <td>$r_3 = 9 r_1$</td>
+            <td>$\lambda_3 = 3 \lambda_1$</td>
+            <td>$v_3 = v_1 / 3$</td>
+            <td>$E_3 = \ \  1.5 \mathrm{eV}$</td>
+        </tr>
+        <tr>
+            <td>$n = 4$</td>
+            <td>$2 \pi r_4 = 4 \lambda_4$</td>
+            <td>$r_4 \! = \! \! 16 r_1 $</td>
+            <td>$\lambda_4 = 4 \lambda_1$</td>
+            <td>$v_4 = v_1 / 4$</td>
+            <td>$E_4 = 0.85 \mathrm{eV}$</td>
+        </tr>
+    </tbody>
+</table>
+</Bleed>
+
+
+### 3.10 On quantum mechanics
+
+The Bohr theory, so successful for the hydrogen atom, was unable to account for the spectra of other atoms, not even for the spectrum of helium. Modifications were introduced to allow elliptical orbits in this model, but the results were not fully satisfying. By 1925, Max Born, W. Heisenberg and P. Jordan, then E. Schroedinger, in 1926, founded and later actively developed the quantum mechanics. This was *a priori* a very sophisticated mathematical theory and, in years and decades of its successful march through physics, it became more and more sophisticated. Quantum mechanics can account for the complexities of atomic spectra, the structure of atoms, molecular binding, crystal structure and what not. There is not a single branch of physics and chemistry which did not gain from the "invasion" of quantum theory into its domain.
+
+However, the quantum theory did not contribute towards the understanding of physical phenomena. For each difficulty, it introduced ad hoc postulates, principles, forbiddals and exclusions, without even a trial of explanation. Moreover, the inability of this mathematical theory to explain physical phenomena is acquitted by postulating that there are no explanations and will never be; that all there is to it are the mathematical equations and their solutions. With such attitudes, the seeking of understanding became a sign of ignorance. As a result, quantum mechanics is not understandable. R. Feynman, in his 1967 paper "*The Character of Physical Laws*", expressed it by saying:
+
+> I think I can safely say that nobody understands quantum mechanics.
+
+The postulate "there is no explanation and cannot be" reminds one of the usual responses of a merchant, when asked for a piece of merchandise which he does not have. These are: "there is no such thing... ", "you will never find it", "they quit making it". If you believe him, then he is right. If you do not, you find the merchandise in another store.
