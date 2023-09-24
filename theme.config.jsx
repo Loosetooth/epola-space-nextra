@@ -17,6 +17,15 @@ export default {
         Copyright © M. Simhony
       </span>
     )
+  },
+  sidebar: {
+    defaultMenuCollapseLevel: 2
+  },
+  toc: {
+    float: true
+  },
+  search: {
+    placeholder: "Search"
   }
   // ... other theme options
 }
