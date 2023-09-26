@@ -1,6 +1,7 @@
 
-import { Callout } from 'nextra/components'
+import { Callout } from '../components/Callout'
 import BindingEnergy from '../components/BindingEnergy'
+import LatticeUnit from '../components/LatticeUnit'
 
 <div style={{textAlign: 'center'}}>
 
@@ -102,3 +103,53 @@ As to the use of the ${}_{sr}E$ expression (equation 3), the very existence of a
 
 ### 5.6 Calculation of the e<sup>&ndash;</sup>e<sup>+</sup> lattice constant
 
+Adding (algebraically) the energy ${}_{sr}E$ of the short-range repulsion, given by equation 3, to the energy ${}_{es}E$ of the electrostatic attraction (with a minus sign for attraction) yields the total interaction energy ${}_t E$ per particle (or per ion pair in the $\mathrm{NaCl}$ lattice). The graphs of these energies as functions of the distance $l$ between the particles (or ions) in the lattice are shown in Figure 1. It is seen that at $l = l_0$ (here $l_0$ is the lattice constant) the total energy has a minimum value, which is the binding energy ${}_b E$ per particle (or per ion pair in the $\mathrm{NaCl}$ lattice). Therefore, at $l = l_0$ the resultant of the two interaction forces, $\left( \delta / \delta l \right) \ {}_{es}E + \left( \delta / \delta l \right) \ {}_{sr}E$ is zero. Hence,
+
+$$
+A = \left( \frac{r}{l_0} \right) \cdot exp \left( \frac{l_0}{r} \right) \cdot {}_{es}E_0
+$$
+
+In the $\mathrm{NaCl}$ crystal, thus also in the epola, $r = 0.1 \ l_0$, so that $A = 2200 \ {}_{es}E_0$ and
+
+$$
+{}_{es}E_0 = -0.1 \ {}_{es}E_0
+$$
+
+Therefore,
+
+$$
+{}_b E = {}_{es}E_0 + {}_{sr}E_0 = 0.9 \ {}_{es}E_0 \ ,
+$$
+
+and
+
+$$
+l_0 = 0.9 \ \frac{k \alpha e^2}{{}_bE} \ .
+$$
+
+Substituting the epola binding energy ${}_bE = m_e c^2 = 0.511 \ \mathrm{MeV}$, we find $l_0 = 4.44 \ \mathrm{fm}$. This value is in fact, not sensitive to the specific *small* value chosen for $r$. The variation of $r$ from $0$ to $0.20 \ l_0$ (i.e., in a much wider range than that noted earlier for various alkali halides) results in values of $l_0$ between
+$4.92 \ \mathrm{fm}$ and $3.94 \ \mathrm{fm}$. We therefore propose for $l_0$ the value
+
+$$
+l_0 = \left( 4.4 \pm 0.5 \right) \ \mathrm{fm} \ .
+$$
+
+<Callout type="info">
+Editorial note:  
+It was proposed in a paper presented at PIRTXII 10-13th, London, Sept 2010 that the electrons and positrons coexist in a frustrated magnetic system, providing the short range repulsion. [R.G.Grantham, I.G.Montgomery; "*Implications of an electron-positron-lattice model of space for EM waves and a possible reconciliation of QM with RT*"]. (See www.epola.co.uk)]
+</Callout>
+
+
+### 5.7 The face-centered cubic lattice
+
+The face-centered cubic (fcc) lattice of the $\mathrm{NaCl}$ crystal and of the epola is shown in Figure 2. Here the corners of the elementary cubes, marked alternately black and white (for positive and negative occupation) are the 'lattice sites'. The distance between two nearest lattice sites is the 'lattice constant'. (The lines in the figure were drawn to ease presentation and do not exist in the epola or in crystals.)
+
+The $e^-$ and $e^+$ particles of the epola or the $\mathrm{Na^+}$ and $\mathrm{Cl^-}$ ions of the $\mathrm{NaCl}$ crystal are vibrating randomly in thermal vibrations around their lattice sites. In the $\mathrm{NaCl}$ crystal the lattice structure and the lattice constant $l_0 = 280 \ \mathrm{pm}$ were revealed using X-ray diffraction techniques (Laue, 1912).
+
+The lattice constant $l_0$ of the epola, calculated in Section 5.6, is $l_0 = \left( 4.4 \pm 0.5 \right) \ \mathrm{fm}$. Neutron diffraction techniques may become able to reveal the epola structure when (and if) resolutions of $1 \ \mathrm{fm}$ are reached. Until then, we shall hold on to the analogy with the $\mathrm{NaCl}$ crystal lattice, which enables the calculations of the epola structure.
+
+<LatticeUnit>
+*Figure 2. Lattice unit of the $\mathrm{NaCl}$ and the $e^- e^+$ lattice*
+</LatticeUnit>
+
+The central particle is marked $1$. Its six nearest neighbors, belonging only halfwise to the unit, are marked $1 / 2$. Fractions marking other particles show their affiliation with this fcc unit.
