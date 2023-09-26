@@ -12,12 +12,13 @@ const withNextra = nextra({
         { whiteList: ['table', 'thead', 'tbody', 'tr', 'th', 'td'] }
       ]
     ]
-  },
+  }
+})
+
+export default withNextra({
   output: "export",
   images: {
     unoptimized: true,
   },
   basePath: '/epola-space-nextra'
 })
- 
-export default withNextra()
