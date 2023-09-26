@@ -1,7 +1,7 @@
 import LatticeImage from "./components/LatticeImage"
 
 export default {
-  docsRepositoryBase: 'https://github.com/violentpositron/epola-space-nextra/tree/main/',
+  docsRepositoryBase: 'https://github.com/loosetooth/epola-space-nextra/tree/main/',
   logo: <>
     <LatticeImage width="50px"/>
     <span style={{ marginLeft: '1rem', fontWeight: 800 }}>
@@ -9,7 +9,7 @@ export default {
     </span>
   </>,
   project: {
-    link: 'https://github.com/violentpositron/epola-space-nextra'
+    link: 'https://github.com/loosetooth/epola-space-nextra'
   },
   footer: {
     text: (
