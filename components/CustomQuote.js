@@ -21,6 +21,7 @@ export const CustomQuote = (props) => {
       justifyContent: "right",
       marginTop: "1rem",
       marginBottom: "1rem",
+      textAlign: "left"
     }}>
       <Paper elevation={3} sx={{
         padding: "2rem",
