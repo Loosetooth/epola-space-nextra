@@ -12,7 +12,8 @@ const withNextra = nextra({
         { whiteList: ['table', 'thead', 'tbody', 'tr', 'th', 'td'] }
       ]
     ]
-  }
+  },
+  output: "export"
 })
  
 export default withNextra()
