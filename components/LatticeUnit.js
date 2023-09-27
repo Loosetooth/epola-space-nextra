@@ -463,7 +463,7 @@ function LatticeUnit(props) {
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/8"
+              aria-label="1/8"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="3.051"
@@ -475,7 +475,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/4"
+              aria-label="1/4"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="3.051"
@@ -487,7 +487,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/4"
+              aria-label="1/4"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="3.051"
@@ -523,7 +523,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/8"
+              aria-label="1/8"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="3.051"
@@ -535,7 +535,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/8"
+              aria-label="1/8"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="3.051"
@@ -547,7 +547,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/4"
+              aria-label="1/4"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="3.051"
@@ -559,7 +559,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/4"
+              aria-label="1/4"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="3.051"
@@ -571,7 +571,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/2"
+              aria-label="1/2"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="1.94"
@@ -583,7 +583,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/2"
+              aria-label="1/2"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="1.94"
@@ -595,7 +595,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/2"
+              aria-label="1/2"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="1.94"
@@ -607,7 +607,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/2"
+              aria-label="1/2"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="1.94"
@@ -619,7 +619,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/2"
+              aria-label="1/2"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="1.696"
@@ -631,7 +631,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/2"
+              aria-label="1/2"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="1.971"
@@ -643,7 +643,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/4"
+              aria-label="1/4"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="1.94"
@@ -655,7 +655,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/4"
+              aria-label="1/4"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="1.94"
@@ -667,7 +667,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/4"
+              aria-label="1/4"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="1.94"
@@ -679,7 +679,7 @@ fill={strokeColor}
             <g
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1/4"
+              aria-label="1/4"
               fontFamily="FreeSans"
 fill={strokeColor}
               fontSize="1.94"
@@ -692,7 +692,7 @@ fill={strokeColor}
               d="M156.474 138.055v.856h.15v-1.202h-.1c-.052.185-.086.21-.316.24v.106z"
               style={{}}
               strokeWidth="0.2"
-              ariaLabel="1"
+              aria-label="1"
             ></path>
           </g>
         </g>
