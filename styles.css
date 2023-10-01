@@ -2,5 +2,12 @@ main {
   padding: 20px 20px 60px;
   max-width: 680px !important;
   margin: 0 auto;
+}
+
+main > p {
+  text-align: justify;
+}
+
+main > blockquote {
   text-align: justify;
 }
