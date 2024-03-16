@@ -16,9 +16,9 @@ const withNextra = nextra({
 })
 
 export default withNextra({
-  output: "export",
+  // output: "export",
   // images: {
   //   unoptimized: true,
   // },
-  // basePath: '/epola-space-nextra'
+  basePath: '/epola'
 })
