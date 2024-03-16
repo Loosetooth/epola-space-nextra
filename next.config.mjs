@@ -20,5 +20,15 @@ export default withNextra({
   // images: {
   //   unoptimized: true,
   // },
-  basePath: '/epola'
+  basePath: '/epola',
+  async redirects() {
+    return [
+      {
+        source: '/',
+        destination: '/epola',
+        basePath: false,
+        permanent: true,
+      },
+    ]
+  },
 })
