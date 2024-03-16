@@ -2,7 +2,7 @@
 
 ![Front page lattice structure](./front-page-lattice-structure-cropped-optimized.svg)
 
-**[READ THE BOOK HERE](https://loosetooth.github.io/epola-space-nextra)** (Work in progress.)
+**[READ THE BOOK HERE](https://loosetooth.github.io/epola-space-nextra)**
 
 This is an electronic version of the book "The Electron-Positron Lattice Space" by Menahem Simhony.
 
